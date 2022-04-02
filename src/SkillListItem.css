@@ -1,0 +1,27 @@
+.SkillListItem {
+  display: flex;
+  margin: auto;
+  margin-bottom: 5px;
+  justify-content: space-between;
+  width: 25vw;
+  border: 1vmin solid purple;
+  border-radius: 5px;
+}
+
+.SkillListLi {
+  list-style: none;
+  padding: 5px;
+  margin: 2px;
+}
+
+.SkillListLi:nth-child(2n) {
+  background-color: grey;
+  border-radius: 10px;
+  color: white;
+}
+
+.SkillListLi:nth-child(1) {
+  border-radius: 10px;
+  color: grey;
+  font-weight: bold;
+}
